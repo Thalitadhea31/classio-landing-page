@@ -52,12 +52,12 @@ export function GreenCampus() {
           <Reveal className="relative mx-auto h-[320px] w-full max-w-lg sm:h-[360px]">
             {/* Gambar 1 (Kiri Atas): Hanya melengkung besar di kiri atas sesuai Figma */}
             <div className="absolute left-0 top-0 aspect-[4/3] w-[64%] overflow-hidden rounded-tl-[4rem] rounded-tr-2xl rounded-bl-2xl rounded-br-2xl shadow-md bg-brand-mint">
-              <Image src="/images/solar-rooftop 1.jpg" alt="Panel surya dan tangki air di atap gedung kampus" fill sizes="350px" className="object-cover" />
+              <Image src="/images/solar-rooftop-1.jpg" alt="Panel surya dan tangki air di atap gedung kampus" fill sizes="350px" className="object-cover" />
             </div>
             
             {/* Gambar 2 (Kanan Bawah): Hanya melengkung besar di kanan bawah sesuai Figma */}
             <div className="absolute bottom-4 right-0 aspect-[4/3] w-[64%] overflow-hidden rounded-br-[4rem] rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl border-4 border-white shadow-xl bg-brand-mint">
-              <Image src="/images/solar-rooftop 2.jpg" alt="Inverter dan baterai sistem tenaga surya" fill sizes="350px" className="object-cover" />
+              <Image src="/images/solar-rooftop-2.jpg" alt="Inverter dan baterai sistem tenaga surya" fill sizes="350px" className="object-cover" />
             </div>
 
             {/* BARU: Elemen Tambahan Pohon Solar Panel Melayang di Kiri Bawah */}

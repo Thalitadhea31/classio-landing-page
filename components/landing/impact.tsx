@@ -56,13 +56,13 @@ export function Impact() {
             <div className="absolute top-2 right-[110px] flex gap-1 z-20">
               {/* Ukuran dinaikkan dari w-10 h-7 menjadi w-[52px] h-[38px] */}
               <div className="relative w-[82px] h-[58px] overflow-hidden rounded border-2 border-white shadow bg-white">
-                <Image src="/images/impact 1.jpg" alt="Komponen 1" fill className="object-cover" />
+                <Image src="/images/impact-1.jpg" alt="Komponen 1" fill className="object-cover" />
               </div>
               <div className="relative w-[82px] h-[58px] overflow-hidden rounded border-2 border-white shadow bg-white">
-                <Image src="/images/impact 2.jpg" alt="Komponen 2" fill className="object-cover" />
+                <Image src="/images/impact-2.jpg" alt="Komponen 2" fill className="object-cover" />
               </div>
               <div className="relative w-[82px] h-[58px] overflow-hidden rounded border-2 border-white shadow bg-white">
-                <Image src="/images/impact 3.jpg" alt="Komponen 3" fill className="object-cover" />
+                <Image src="/images/impact-3.jpg" alt="Komponen 3" fill className="object-cover" />
               </div>
             </div>
 

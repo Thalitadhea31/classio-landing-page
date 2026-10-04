@@ -18,7 +18,7 @@ export function Logo() {
     <a href="#home" className="flex items-center" aria-label="Classio home">
       {/* BERHASIL DIUBAH: Menggunakan file gambar logo asli Anda */}
       <img 
-        src="/images/logo Smartclass black.png" 
+        src="/images/logo-Smartclass-black.png" 
         alt="Classio Logo" 
         className="h-8 w-auto object-contain" 
       />

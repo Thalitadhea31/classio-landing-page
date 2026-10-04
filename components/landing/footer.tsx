@@ -13,7 +13,7 @@ export function Footer() {
           <div className="flex flex-col gap-1">
             <div className="flex items-center gap-2">
               <img 
-                src="/images/logo smartclass black.png" 
+                src="/images/logo-Smartclass-black.png" 
                 alt="Classio Logo" 
                 className="h-6 w-auto object-contain" 
               />
