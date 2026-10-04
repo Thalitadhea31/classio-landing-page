@@ -65,7 +65,7 @@ export function Navbar() {
         </ul>
 
         <a
-          href="#impact"
+          href="#footer"
           className="hidden rounded-full border border-brand-dark px-5 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-dark hover:text-white md:inline-flex"
         >
           Contact Us
