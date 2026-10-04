@@ -64,8 +64,9 @@ export function Navbar() {
           ))}
         </ul>
 
+       {/* PERBAIKAN DESKTOP: href diganti ke #kontak-resmi */}
         <a
-          href="#footer"
+          href="#kontak-resmi"
           className="hidden rounded-full border border-brand-dark px-5 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-dark hover:text-white md:inline-flex"
         >
           Contact Us
@@ -109,7 +110,7 @@ export function Navbar() {
               ))}
               <li className="pt-2">
                 <a
-                  href="#contact"
+                  href="#kontak-resmi"
                   onClick={() => setOpen(false)}
                   className="block rounded-full border border-brand-dark px-5 py-2.5 text-center text-sm font-medium text-brand-dark"
                 >
