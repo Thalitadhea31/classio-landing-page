@@ -4,7 +4,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="w-full bg-white border-t border-brand-soft py-12 md:py-16">
+    <section id="kontak-resmi" className="w-full bg-white border-t border-brand-soft py-12 md:py-16 scroll-mt-24">
       <div className="mx-auto max-w-6xl px-6 flex flex-col gap-10">
         
         {/* BARIS 1: BRANDING (KIRI) VS TOMBOL EMAIL SEBAGAI CTA (KANAN) */}
@@ -95,6 +95,6 @@ export function Footer() {
         </div>
 
       </div>
-    </footer>
+    </section>
   )
 }
