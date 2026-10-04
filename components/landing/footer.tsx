@@ -59,7 +59,7 @@ export function Footer() {
             <div className="flex flex-col gap-1">
               <span className="text-xs font-semibold uppercase tracking-wider text-ink/40">Contact Number</span>
               <a 
-                href="https://wa.me" 
+                href="https://wa.me/628112868811" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-sm font-semibold text-brand-dark hover:text-brand transition-colors mt-0.5 block"
