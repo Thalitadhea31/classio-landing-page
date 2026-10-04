@@ -66,11 +66,16 @@ export function Navbar() {
 
        {/* PERBAIKAN DESKTOP: href diganti ke #kontak-resmi */}
         <a
-          href="#kontak-resmi"
-          className="hidden rounded-full border border-brand-dark px-5 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-dark hover:text-white md:inline-flex"
-        >
-          Contact Us
-        </a>
+  href="#kontak-resmi"
+  onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('kontak-resmi')?.scrollIntoView({ behavior: 'smooth' });
+  }}
+  className="hidden rounded-full border border-brand-dark px-5 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-dark hover:text-white md:inline-flex"
+>
+  Contact Us
+</a>
+
 
         <button
           type="button"
@@ -111,12 +116,18 @@ export function Navbar() {
               <li className="pt-2">
                 {/* PERBAIKAN MOBILE: href diganti ke #kontak-resmi */}
                 <a
-                  href="#kontak-resmi"
-                  onClick={() => setOpen(false)}
-                  className="block rounded-full border border-brand-dark px-5 py-2.5 text-center text-sm font-medium text-brand-dark"
-                >
-                  Contact Us
-                </a>
+  href="#kontak-resmi"
+  onClick={() => {
+    setOpen(false); // Menutup menu drop-down HP
+    setTimeout(() => {
+      document.getElementById('kontak-resmi')?.scrollIntoView({ behavior: 'smooth' });
+    }, 100); // Memberi jeda 100ms agar menu menutup dulu baru meluncur turun
+  }}
+  className="block rounded-full border border-brand-dark px-5 py-2.5 text-center text-sm font-medium text-brand-dark"
+>
+  Contact Us
+</a>
+
               </li>
             </ul>
           </motion.div>
